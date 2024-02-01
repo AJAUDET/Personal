@@ -1,0 +1,117 @@
+HTML:
+
+    In addition to the HTTP headers that include status codes, the bits representing an image or website will be sent to you
+    The language that builds websites is HTML (Hypertext Markup Language)
+    Sent as a response for a request for a web page
+    HTML isn’t a programming language but rather a markup language
+    Allows you to format, but doesn’t have control flow such as loops and conditions
+
+    style:
+
+        <!DOCTYPE html>
+
+        <html lang="en">
+            <head>
+                <title>hello, world</title>
+            </head>
+            <body>
+                hello, world
+            </body>
+        </html>
+
+    This is html for a webpage that says “hello, world”
+
+    To implement webpages, you need to write HTML
+
+    Editors like Atom and Sublime Text exist to help write HTML
+
+    Ultimately, all you need is a computer, a keyboard, and some way of typing out text.
+
+    <!DOCTYPE html>:
+
+        Lets the browser know the following file is written in HTML 5
+
+    <html lang="en">:
+
+        Specifies that the webpage is written in English
+
+    <head></head>:
+
+        Example of open and close tags
+        First tag opened is the last tag closed
+
+        HTML is a tag-based markup language
+            Tags have attributes
+
+    Standard extension for a webpage is .html
+
+
+    In the top corner of the browser tab is the title
+
+        This comes from the head
+        The body contains 99% of the webpage’s content
+
+    Not on a web server, so no one else can access it:
+
+        There are web hosts to serve up websites we write
+
+Atom:
+
+    TextEdit is not designed for web page development
+    Free alternatives made for web development exist
+    Atom is an example of one of these editors Atom
+
+        In Atom, you can open multiple files at once
+        Colors are added for readability
+
+    These colors don’t effect how the webpage will render
+    HTML supports comments, <!--comments-->
+
+Links:
+
+    Links can make our pages more dynamic by linking to other pages
+    <a></a> are anchor tags that can be used for links
+    <!DOCTYPE html>
+
+    <html lang="en">
+        <head>
+            <title>link</title>
+        </head>
+        <body>
+            Visit <a href="http://www.harvard.edu/">Harvard</a>.
+        </body>
+    </html>
+
+    href (hyper reference) is set to where you want the link to go
+
+    Blue, underlined text traditionally represents a link on a webpage
+
+    The bottom left corner on Chrome shows the destination of a link when you hover over the text
+
+    A link traditionally becomes purple if you’ve already followed that link
+    Browser remembers where you’ve been
+        
+        Note: this is a potential privacy concern
+
+Images:
+
+    The web is filled with images
+
+    <img> is the image tag
+
+    <!DOCTYPE html>
+
+    <html lang="en">
+        <head>
+            <title>image</title>
+        </head>
+        <body>
+            <img alt="Grumpy Cat" src="cat.jpg"/> 
+        </body>
+    </html>
+
+    The src (source) attribute is set to the address of the file
+
+    The alt (alternative text) attribute is what displays if the page can’t be seen
+
+    Closes itself as one tag, these are special cases

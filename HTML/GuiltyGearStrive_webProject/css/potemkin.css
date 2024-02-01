@@ -1,0 +1,26 @@
+/* 
+
+Potemkin style file 
+
+Change the colors to the character's color palette
+
+*/
+
+/* for the BG */
+body{
+    background-color: #8D918D;
+}
+
+/* for the headers*/
+h1{
+    color: #610000;
+    margin-left: 40px;
+    font-family: Impact;
+    font-size: 75px;
+}
+
+#one{
+    color: black;
+    font-family: Impact;
+    font-size: 25px;
+}

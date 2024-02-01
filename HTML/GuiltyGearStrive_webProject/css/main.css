@@ -1,0 +1,78 @@
+/*
+    The style sheet for the main webpage
+*/
+
+/* for the BG */
+  body {
+      background-color: #8D918D;
+    }
+  
+/*for the headers*/
+  h1 {
+    color: #610000;
+    margin-left: 20px;
+    font-family: Impact;
+    font-size: 75px;
+  }
+
+  h2{
+    color: #610000;
+    margin-left: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 35px;
+  }
+
+  /* styling the paragraphs using special IDs */
+  #one {
+    color: black;
+    margin-left: 40px;
+    font-family: Impact;
+    font-size: 25px;
+  }
+
+  #two {
+    color: black;
+    margin-left: 20px;
+    font-family: Impact;
+    font-size: 20px;
+  }
+  
+  /* for the containers for the images */
+  .column {
+    float: left;
+    width: 45%;
+    padding: 5px;
+  }
+
+  /* same row for the images to be side by side */
+
+  .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+
+  /* button customizations leading to WIKI Pages*/
+
+  #Potemkin {
+    background-color: #8D918D;
+  }
+  #Potemkin:hover {
+    background-color: #610000;
+  }
+
+  #HappyChaos{
+    background-color: #8D918D;
+  }
+  #HappyChaos:hover{
+    background-color: #610000;
+  }
+
+  /* buttons leading to character tutorials*/
+  #happyDust{
+    background-color: #8D918D;
+  }
+
+  #potemkinDust{
+    background-color: #8D918D;
+  }

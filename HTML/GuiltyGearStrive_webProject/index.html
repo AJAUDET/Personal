@@ -1,0 +1,84 @@
+<!--
+    so the purpose of this code is to make a website
+
+    i want to make a website that has a personal guide to guilty gear strive characters
+
+        characters chosen: Potemkin, and Happy Chaos
+
+    the website is to serve as a guide to how to preform basic combos with the characters
+-->
+
+<!DOCTYPE html>
+<html>
+    <!--sync to device width-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <head>
+        <!--Fabicon icon-->
+        <link rel="icon" type="image/x-icon" href="images/ggst.ico">
+        
+        <!--linking the styling css file for customzations-->
+        <link rel="stylesheet" href="css/main.css">
+    </head>
+    <!--Intro of the site-->
+    <body>
+        <h1>
+            Guily Gear Strive: Combo Tutorial
+        </h1>
+        <h2>
+            By: AJ AUDET
+        </h2>
+        <p id="one">
+            This is a guide dedicated to Potemkin and Happy Chaos
+        </p>
+
+        <!--The buttons for the images should lead to the wiki page for each character-->
+       <div class="row">
+        <!--Potemkin's image and WIKI page-->
+        <div class="column">
+            <a href="https://guiltygear.fandom.com/wiki/Potemkin">
+                <button id="Potemkin">
+                    <img src="images/img_potemkin.png" alt="Potemkin Wiki" style="width: 100%"> 
+                </button>
+            </a>
+        </div>
+
+        <!--Happy Chaos's image and WIKI page-->
+       <div class="column">
+            <a href="https://guiltygear.fandom.com/wiki/Happy_Chaos">
+                <button id="HappyChaos">
+                    <img src="images/img_happy_chaos.png" alt="Chaos Wiki" style="width: 100%">
+                </button>
+            </a>
+       </div>
+       </div>
+
+       <p id="two">
+            Clicking on the images will lead to their WIKI page
+       </p>
+       <br> <br> <br> <br> <br>
+
+       <p id="one">
+            The Images below will lead to the Tutorials for Potemkin or Happy Chaos
+       </p>
+
+       <!--Buttons to each tutorial, both their own sites, use new .html files-->
+       <!--Each file contains a tutorial on the dust loops I use, will also link the general dustloop page-->
+       <div class="row">
+            <div class="column">
+                <a href="potemkin.html">
+                    <button id="potemkinDust">
+                        <img src="images/potemkin_dust.png" alt="Potemkin Tutorial" style="width: 325px; height: 325px;">
+                    </button>
+                </a>
+            </div>
+            <div class="column">
+                <a href="happyChaos.html">
+                    <button id="happyDust">
+                        <img src="images/dust_chaos.png" alt="Happy Chaos Tutorial" style="width: 325px; height: 325px;">
+                    </button>
+               </a>
+            </div>
+       </div>
+
+    </body>
+</html>
